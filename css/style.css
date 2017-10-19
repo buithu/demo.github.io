@@ -331,6 +331,7 @@ a:hover{
 }
 .clogthings .right .cheap .cheap-pro,.bag-shoes .cheap .cheap-pro,.best .cheap .cheap-pro,.mid .product-all  .cheap-pro{
 	color: #db3838;
+	font-weight: bold;
 }
 .clogthings .right .cheap .cheap-pro .price-sale,.bag-shoes .cheap .cheap-pro .price-sale,.best .cheap .cheap-pro .price-sale,.mid .product-all .cheap .cheap-pro .price-sale{
 	color: #a9a9a9;
