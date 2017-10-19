@@ -1066,6 +1066,9 @@ padding-top: 5px;
 	.bag-shoes .left .col-lg-6:last-child{
 	margin-top:85px;	
 	}
+	.popular .nd .cont{
+	bottom:330px;	
+	}
 	}
 @media screen and (max-width: 768px){
 	.baby{
