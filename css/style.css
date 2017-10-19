@@ -135,6 +135,7 @@ a:hover{
 .logo .coin option{
 		color: black;
 		font-weight: bold;
+		background:#fff;
 }
 .logo .searchbtn{
 	color: #fff;
