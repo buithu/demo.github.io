@@ -1040,6 +1040,12 @@ padding-top: 5px;
 .hide{
 	display: block;
 }
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+	.sp img{
+	margin-top:85px;
+	}
+	
+}
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	img{
 		margin: auto;
