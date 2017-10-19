@@ -123,6 +123,7 @@ a:hover{
 }
 .logo .search::-webkit-input-placeholder,.logo .search:-moz-placeholder,.logo .search::-moz-placeholder{
 	color: #fff !important;
+	opacity: 1;
 }
 .logo .search{
 	background: transparent;
