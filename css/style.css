@@ -122,7 +122,7 @@ a:hover{
 	margin-top: 10px;
 }
 .logo .search::-webkit-input-placeholder,.logo .search:-moz-placeholder{
-	color: #fff;
+	color: #fff !important;
 }
 .logo .search{
 	background: transparent;
@@ -537,7 +537,7 @@ font-weight: bold;
 }
 .footer .top .left input::-webkit-input-placeholder,.footer .top .left input:-moz-placeholder{
 	font-weight: 100 !important;
-	color:#797979;
+	color:#797979 !important;
 	
 }
 .footer .top .left input{
