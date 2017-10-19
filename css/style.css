@@ -1050,13 +1050,13 @@ padding-top: 5px;
     	justify-content: center;	
 	}
 	.footer .top .right>div{
-	float:left;
+	float:left !important;
 	margin-top:10px;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	.footer .top .right>div{
-	float:left;
+	float:left !important;
 	margin-top:10px;
 	}
 	img{
