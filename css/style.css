@@ -295,6 +295,7 @@ a:hover{
 .tit{
 	position: absolute;
 	top: 8px;
+	text-transform: initial !important;
 
 }
 .sp .hover{
