@@ -387,6 +387,7 @@ font-weight: bold;
 }
 .bag-shoes .left .col-lg-6:last-child{
 	padding-right: 0px;
+	margin-top:85px;
 }
 .bag-shoes .right .owl-carousel .owl-item img{
 	height: 445px;
