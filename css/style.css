@@ -1041,9 +1041,7 @@ padding-top: 5px;
 .hide{
 	display: block;
 }
-.best .owl-carousel .owl-stage-outer{
-	margin-top:75px;
-}
+
 @media screen and (min-width: 1024px) and (max-width: 1199px){
 	.sp img{
 	margin-top:85px;
@@ -1062,6 +1060,9 @@ padding-top: 5px;
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
+	.best .owl-carousel .owl-stage-outer{
+	margin-top:75px;
+}
 	.footer .top .right>div{
 	float:left !important;
 	margin-top:10px;
