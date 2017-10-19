@@ -121,10 +121,12 @@ a:hover{
 .logo .input-group{
 	margin-top: 10px;
 }
-.logo .search::-webkit-input-placeholder,.logo .search:-moz-placeholder,.logo .search::-moz-placeholder{
+.logo .search::-webkit-input-placeholder{
 	color: #fff !important;
 	opacity: 1;
 }
+.logo .search:-moz-placeholder { color: #fff; opacity:1;}
+.logo .search::-moz-placeholder { color: #fff; opacity:1;}
 .logo .search{
 	background: transparent;
 	padding: 12px !important;
@@ -536,10 +538,18 @@ font-weight: bold;
 .footer .top .left .input-group{
 	display: block;
 }
-.footer .top .left input::-webkit-input-placeholder,.footer .top .left input:-moz-placeholder{
+.footer .top .left input::-webkit-input-placeholder{
 	font-weight: 100 !important;
 	color:#797979 !important;
 	
+}
+.footer .top .left input:-moz-placeholder{
+	font-weight: 100 !important;
+	color:#797979 !important;
+}
+.footer .top .left input::-moz-placeholder{
+	font-weight: 100 !important;
+	color:#797979 !important;
 }
 .footer .top .left input{
 	background-color: transparent;
