@@ -1049,9 +1049,16 @@ padding-top: 5px;
 	display: flex;
     	justify-content: center;	
 	}
-	
+	.footer .top .right>div{
+	float:left;
+	margin-top:10px;
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
+	.footer .top .right>div{
+	float:left;
+	margin-top:10px;
+	}
 	img{
 		margin: auto;
 	}
