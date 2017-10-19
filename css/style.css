@@ -121,7 +121,7 @@ a:hover{
 .logo .input-group{
 	margin-top: 10px;
 }
-.logo .search::-webkit-input-placeholder,.logo .search:-moz-placeholder{
+.logo .search::-webkit-input-placeholder,.logo .search:-moz-placeholder,.logo .search::-moz-placeholder{
 	color: #fff !important;
 }
 .logo .search{
