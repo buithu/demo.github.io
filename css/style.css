@@ -375,7 +375,7 @@ font-weight: bold;
 	font-weight: bold;
 	margin-top: 15px;
 }
-.bag-shoes .title{
+.bag-shoes>.title{
 	text-transform: uppercase;
 }
 .bag-shoes .title .pen {
