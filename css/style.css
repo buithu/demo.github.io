@@ -1044,11 +1044,21 @@ padding-top: 5px;
 	.sp img{
 	margin-top:85px;
 	}
+	.menu .navbar li{
+	width:100%;
+	display: flex;
+    	justify-content: center;	
+	}
 	
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	img{
 		margin: auto;
+	}
+	.menu .navbar li{
+	width:100%;
+	display: flex;
+    	justify-content: center;	
 	}
 	.sp:hover .hover{
 		display: none !important;
@@ -1078,6 +1088,11 @@ padding-top: 5px;
 	}
 	}
 @media screen and (max-width: 768px){
+	.menu .navbar li{
+	width:100%;
+	display: flex;
+    	justify-content: center;	
+	}
 	.baby{
 		display: none ;
 	}
