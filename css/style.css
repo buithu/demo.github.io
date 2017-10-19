@@ -387,7 +387,6 @@ font-weight: bold;
 }
 .bag-shoes .left .col-lg-6:last-child{
 	padding-right: 0px;
-	margin-top:85px;
 }
 .bag-shoes .right .owl-carousel .owl-item img{
 	height: 445px;
@@ -1063,6 +1062,9 @@ padding-top: 5px;
 	}
 	.content .contentpro-grid .top .right .col-lg-6:last-child p{
 		margin-left: 0px;
+	}
+	.bag-shoes .left .col-lg-6:last-child{
+	margin-top:85px;	
 	}
 	}
 @media screen and (max-width: 768px){
