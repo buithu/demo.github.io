@@ -540,7 +540,7 @@ font-weight: bold;
 }
 .footer .top .left .input-group{
 	display: block;
-	margin-top:10px;
+	margin-top:6px;
 }
 .footer .top .left input::-webkit-input-placeholder{
 	font-weight: 100 !important;
