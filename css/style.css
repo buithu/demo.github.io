@@ -1046,23 +1046,23 @@ padding-top: 5px;
 #home {
 width: 60px;
 height: 54px;
-background: url('images/social.png') -2px -5px;
+background: url('../images/social.png') -2px -5px;
 }
 
 #next {
 width: 60px;
 height: 54px;
-background: url(images/social.png) -66px -5px;
+background: url(../images/social.png) -66px -5px;
 }
 #you {
 width: 60px;
 height: 54px;
-background: url(images/social.png) -192px -4px;
+background: url(../images/social.png) -192px -4px;
 }
 #ka {
 width: 60px;
 height: 54px;
-background: url(images/social.png) -132px -5px;
+background: url(../images/social.png) -132px -5px;
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px){
 	.sp img{
