@@ -708,7 +708,11 @@ font-weight: bold;
 .menuleft>.navbar>ul>li{
 	border-bottom: 1px solid #e5e5e5;
 }
+.selected ul{
+display:block;	
+}
 .menuleft .navbar ul li ul{
+	display:none;
 	position: inherit;
 	background: #fff;
 }
