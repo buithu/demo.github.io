@@ -1134,7 +1134,13 @@ background: url(../images/social.png) -132px -5px;
 	}
 	}
 @media screen and (max-width: 768px){
-	
+	.icon-dropdown{
+		    position: relative;
+    bottom: 41px;
+    left: 100px;
+    padding: 0px;
+    z-index: 999;
+	}
 	.baby{
 		display: none ;
 	}
