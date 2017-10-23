@@ -53,25 +53,35 @@ a:hover{
 	top: 15px;
 	
 }
-.drop .navbar ul li ul {
-	position: absolute;
-	display: none;
-	top: 50px;
+
+.icon-dropdown{
+	background: transparent;
+    border: none;
+    color: #fff;
+    outline: none !important;
+    margin-top: 9px;
+}
+.icon-dropdown:hover{
+	background: transparent;
+    border: none;
+    color: #fff;
+}
+.icon-dropdown:focus{
+	background: transparent;
+    border: none;
+    color: #fff;
+}
+ .open>a{
+	background: transparent !important;
+}
+.dropdown-menu{
 	background: black;
 }
-.drop .navbar ul li ul li{
-	list-style: none;
-	padding: 10px 40px;
-	padding-left: 10px !important;
+.dropdown-menu li a:hover{
+	background: transparent !important;;
+}
 
 
-}
-.drop .navbar ul li ul li:first-child{
-	padding-top: 20px;
-}
-.drop .navbar ul .selected ul{
-	display: block;
-}
 .menu .navbar a{
 	color: #fff !important;
 	font-weight: bold;
