@@ -40,9 +40,7 @@ a:hover{
 	color: #f1eff0 !important;
 	border: none;
 }
-.menu .navbar ul li ul{
-	display: none;
-}
+
 .menu .navbar a{
 	float: left;
 }
