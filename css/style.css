@@ -87,8 +87,11 @@ a:hover{
 
 }
 .menu .navbar li{
-	
+	max-height:40px;
 	margin: 0px 5px;
+}
+.open{
+	max-height:100% !important;	
 }
 .lhtop i{
 	background: #fff;
