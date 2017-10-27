@@ -1,10 +1,15 @@
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
-        $('.menu').addClass('navbar-fixed-top color');
+
+
+window.onscroll = function() {scrollFunction1()};
+
+function scrollFunction1() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementsByClassName("menu")[0].classList.add("navbar-fixed-top color");
     } else {
-        $('.menu').removeClass('navbar-fixed-top color');
+        document.getElementsByClassName("menu")[0].classList.remove("navbar-fixed-top color");
     }
-});
+}
+
 
 window.onscroll = function() {scrollFunction()};
 
