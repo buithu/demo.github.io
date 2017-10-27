@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+li{
+  float: left;
+  list-style: none;
+
+}
+nav{
+  width: 100%;
+  background: black;
+  height: 20px;
+}
+a{
+  color: #fff;
+  padding: 10px 20px;
+}
+.fixed{
+  position: fixed;
+}
+</style>
+</head>
+<body style="height: 1000px;">
+
+<nav id="none">
+  <ul>
+    <li><a href="">home</a></li>
+    <li><a href="">ga</a></li>
+    <li><a href="">ka</a></li>
+    <li><a href="">fa</a></li>
+    <li><a href="">ja</a></li>
+    <li><a href="">lk</a></li>
+  </ul>
+</nav>
+<h1>test</h1>
+
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("none").classList.add("fixed");
+    } else {
+        document.getElementById("none").classList.remove("fixed");
+    }
+}
+
+
+
+</script>
+</body>
+</html>

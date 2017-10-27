@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#none {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+
+  
+}
+
+
+</style>
+</head>
+<body style="height: 1000px;">
+
+<button onclick="back()" id="none">Top</button>
+
+
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("none").style.display = "block";
+    } else {
+        document.getElementById("none").style.display = "none";
+    }
+}
+
+
+function back() {
+
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
