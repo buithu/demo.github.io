@@ -11,7 +11,7 @@ function scrollFunction() {
         document.getElementsByClassName("menu")[0].classList.add("navbar-fixed-top");
     } else {
         document.getElementById("backtop").style.display = "none";
-        document.getElementsByClassName("menu")[0].classList.add("navbar-fixed-top");
+        document.getElementsByClassName("menu")[0].classList.remove("navbar-fixed-top");
     }
 }
 
