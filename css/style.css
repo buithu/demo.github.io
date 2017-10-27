@@ -30,6 +30,7 @@ body{
     color: #fff;
     background: #d9534f;
     border: none;
+    z-index: 999;
   
 }
 
