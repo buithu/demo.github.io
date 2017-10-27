@@ -108,9 +108,7 @@ a:hover{
 	max-height:40px;
 	margin: 0px 5px;
 }
-.open{
-	max-height:100% !important;	
-}
+
 .lhtop i{
 	background: #fff;
 	padding: 2px 3px;
@@ -1121,6 +1119,9 @@ background: url(../images/social.png) -132px -5px;
 	.best .owl-carousel .owl-stage-outer{
 	margin-top:75px;
 }
+	.open{
+	max-height:100% !important;	
+}
 	.footer .top .right>div{
 	float:left !important;
 	margin-top:10px;
@@ -1168,6 +1169,9 @@ background: url(../images/social.png) -132px -5px;
     padding: 0px;
     z-index: 999;
 	}
+	.open{
+	max-height:100% !important;	
+}
 	.baby{
 		display: none ;
 	}
