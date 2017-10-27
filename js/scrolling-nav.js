@@ -21,7 +21,7 @@ function back() {
     if(window.scrollY!=0)
 {
     setTimeout(function() {
-       window.scrollTo(0,window.scrollY-30);
+       window.scrollTo(0,window.scrollY-100);
         back();
     }, 100);
    }
