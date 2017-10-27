@@ -18,7 +18,12 @@ function scrollFunction() {
 
 function back() {
 
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    if(window.scrollY!=0)
+{
+    setTimeout(function() {
+       window.scrollTo(0,window.scrollY-30);
+        back();
+    }, 100);
+   }
 }
 
