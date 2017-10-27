@@ -25,7 +25,8 @@ body{
   position: fixed;
   bottom: 20px;
   right: 30px;
-    padding: 5px;
+  border-radius: 40px;
+    padding: 12px;
     color: #fff;
     background: #d9534f;
     border: none;
