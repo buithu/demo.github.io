@@ -62,7 +62,9 @@ a:hover{
 .menu .navbar a{
 	float: left;
 }
-
+.menu li:hover .dropdown-menu{
+	display:block;	
+}
 .spanmn{
 	float: left;
 	position: absolute;
