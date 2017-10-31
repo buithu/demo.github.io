@@ -11,16 +11,16 @@ var menu = document.querySelectorAll('div.col-lg-12 > ul > li > span');
                     var menuList = document.querySelectorAll('div.col-lg-12 > ul > li > ul');
                     for (var j = 0; j < menuList.length; j++) {
                         
-                        if ( menuList[j].style.display == "block") {
+                       
                         	menuList[j].style.display = "none";
-                        }
-                        else{
+                        
+                       
                         	
-                        	this.nextElementSibling.style.display = "block";
-                        }
+                        	
+                        
                     }
  					
-                   
+                   this.nextElementSibling.style.display = "block";
                     
                 });
             }
