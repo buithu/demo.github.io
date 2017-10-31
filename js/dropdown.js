@@ -1,5 +1,5 @@
 
-var menu = document.querySelectorAll('div.col-lg-7 > ul > li > span');
+var menu = document.querySelectorAll('div.col-lg-12 > ul > li > span');
  
 
             for (var i = 0; i < menu.length; i++)
@@ -9,7 +9,7 @@ var menu = document.querySelectorAll('div.col-lg-7 > ul > li > span');
                 {
                 	
 
-                    var menuList = document.querySelectorAll('div.col-lg-7 > ul > li > ul');
+                    var menuList = document.querySelectorAll('div.col-lg-12 > ul > li > ul');
                     for (var j = 0; j < menuList.length; j++) {
                         
                         if ( menuList[j].style.display == "block") {
