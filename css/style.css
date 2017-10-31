@@ -1271,6 +1271,9 @@ background: url(../images/social.png) -132px -5px;
 	.content .contentpro-grid .top .right .col-lg-6:last-child p{
 		margin-left: 0px;
 	}
+	.menu li ul{
+	width:100% !important;	
+	}
 
 }
 @media screen and (max-width: 450px){
