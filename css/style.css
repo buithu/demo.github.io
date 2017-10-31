@@ -1274,7 +1274,11 @@ background: url(../images/social.png) -132px -5px;
 	.menu .col-lg-12>ul{
 	width:100% !important;	
 	}
-
+	.menu li ul{
+	position: initial;
+	margin-bottom: 100px;
+        width: 100% !important;
+	}
 }
 @media screen and (max-width: 450px){
 .popular .nd .cont{
