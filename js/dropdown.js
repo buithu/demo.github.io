@@ -35,7 +35,7 @@ var menu = document.querySelectorAll('div.col-lg-12 > ul > li > span');
 	    
 	    var hover = document.querySelectorAll('div.col-lg-12 > ul > li > a');
 
- 		for(var h = 1; h < menu.length; h++)
+ 		for(var h = 0; h < menu.length; h++)
  			{
  				hover[h].addEventListener("mouseover", function(){
                 	this.nextElementSibling.nextElementSibling.style.display = "block";
