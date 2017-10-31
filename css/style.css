@@ -79,7 +79,7 @@ a:hover{
 }
 .spanmn{
 	float: left;
-	position: absolute;
+	position: relative;
 	top: 15px;
 	
 }
