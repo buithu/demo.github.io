@@ -66,7 +66,16 @@ a:hover{
 	display:block;	
 }
 .menu li ul{
-	display:none;
+	    display:none;
+	    top: 50px;
+	    position: absolute;
+	    background: black;
+	    list-style: none;
+	    padding-left: 15px;
+	    padding: 10px 49px 10px 15px;
+}
+.menu li ul li{
+	margin-bottom:10px;	
 }
 .spanmn{
 	float: left;
