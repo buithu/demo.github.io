@@ -1,24 +1,4 @@
 
- $(".menuleft .navbar ul li span").click(function(){
-
- 	var span = $(this);
-	var li = $(this).parent();
-	if (li.hasClass("selected")) {
-		
-		
-		span.removeClass("glyphicon-minus");
-		$('ul li').removeClass('selected');					                 
-	return false;
-	} 
-	 else {
-	 $('ul li').removeClass('selected');
-								                       
-	li.addClass("selected");
-
-    span.addClass("glyphicon-minus");
-
-	 }
- });
  
 
 
