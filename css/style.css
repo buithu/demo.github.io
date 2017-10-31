@@ -1201,9 +1201,7 @@ background: url(../images/social.png) -132px -5px;
 	.footer .bot nav ul li:first-child a{
 		padding-left: 0px;
 	}
-	.menu .navbar .spanmn{
-		display: none;
-	}
+	
 	.menu .navbar a{
 	float: none !important;
 	}
@@ -1278,6 +1276,9 @@ background: url(../images/social.png) -132px -5px;
 	position: initial;
 	margin-bottom: 100px;
         width: 100% !important;
+	}
+	.menu .navbar .spanmn{
+	    left: 400px !important;
 	}
 }
 @media screen and (max-width: 450px){
