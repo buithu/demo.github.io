@@ -1,5 +1,40 @@
-var menu = document.querySelectorAll('div.col-lg-7 > ul > li > span');
 
+ $(".menuleft .navbar ul li span").click(function(){
+
+ 	var span = $(this);
+	var li = $(this).parent();
+	if (li.hasClass("selected")) {
+		
+		
+		span.removeClass("glyphicon-minus");
+		$('ul li').removeClass('selected');					                 
+	return false;
+	} 
+	 else {
+	 $('ul li').removeClass('selected');
+								                       
+	li.addClass("selected");
+
+    span.addClass("glyphicon-minus");
+
+	 }
+ });
+ 
+
+
+
+ var menu = document.querySelectorAll('div.col-lg-7 > ul > li > span');
+ var hover = document.querySelectorAll('div.col-lg-7 > ul > li > a');
+
+ for(var h = 1; h < menu.length; h++)
+ 			{
+ 				hover[h].addEventListener("mouseover", function(){
+                	this.nextElementSibling.nextElementSibling.style.display = "block";
+               });
+               hover[h].addEventListener("mouseout", function(){
+                	this.nextElementSibling.nextElementSibling.style.display = "none";
+               });
+ 			}
             for (var i = 0; i < menu.length; i++)
             {
 
@@ -10,7 +45,9 @@ var menu = document.querySelectorAll('div.col-lg-7 > ul > li > span');
 
                         	menuList[j].style.display = "none";
                     }
-this.nextElementSibling.style.display = "block";
+                    
+
+ 						this.nextElementSibling.style.display = "block";
  
  					
                 });
