@@ -1,11 +1,17 @@
 var menu = document.querySelectorAll('div.col-lg-12 > ul > li > span');
 var hover = document.querySelectorAll('div.col-lg-12 > ul > li > a');
-
+var ul = document.querySelectorAll('div.col-lg-12 > ul > li > ul');
  		for(var h = 0; h < menu.length; h++)
  			{
  				if(h>0){
 					hover[h].addEventListener("mouseover", function(){
                 	this.nextElementSibling.nextElementSibling.style.display = "block";
+               });
+					ul[h].addEventListener("mouseover", function(){
+                	this.style.display = "block";
+               });
+ 				ul[h].addEventListener("mouseout", function(){
+                	this.style.display = "none";
                });
                hover[h].addEventListener("mouseout", function(){
                 	this.nextElementSibling.nextElementSibling.style.display = "none";
