@@ -37,10 +37,12 @@ var menu = document.querySelectorAll('div.col-lg-12 > ul > li > span');
 
  		for(var h = 0; h < menu.length; h++)
  			{
- 				hover[h].addEventListener("mouseover", function(){
+ 				if(h>0){
+					hover[h].addEventListener("mouseover", function(){
                 	this.nextElementSibling.nextElementSibling.style.display = "block";
                });
                hover[h].addEventListener("mouseout", function(){
                 	this.nextElementSibling.nextElementSibling.style.display = "none";
                });
+				}
  			}
