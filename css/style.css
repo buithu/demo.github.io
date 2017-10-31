@@ -65,6 +65,9 @@ a:hover{
 .menu li:hover .dropdown-menu{
 	display:block;	
 }
+.menu li ul{
+	display:none;
+}
 .spanmn{
 	float: left;
 	position: absolute;
