@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="">
+	
+		
+		
+
+</head>
+<body>
+	<div id="container">
+    <ul id="list">
+    	<p id="pp">add</p>
+        <li><a href="http://google.com">Item #1</a></li>
+        <li><a href="http://google.com">Item #2</a></li>
+        <li><a href="http://google.com">Item #3</a></li>
+        <li><a href="http://domain4.com">Item #4</a></li>
+    </ul>
+</div>
+<script type="text/javascript" >
+		$(document).ready(function(){
+		$( "#list" ).on( "click", "a", function( event ) {
+    var elem = $( this );
+    if ( elem.is( "[href^='http']" ) ) {
+        elem.attr( "target", "_blank" );
+    }
+});
+		$( "#pp" ).on( "click", function() {
+   		$( "#list" ).append( "<li><a href='http://google.com'>Item #5</a></li>" );
+		});
+	});
+	</script>
+</body>
+</html>
