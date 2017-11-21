@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/demo.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<img src="img/logo.png" alt="Logo" class="logo-img">
+			</div>
+			<ul class="nav">
+				<li class="nav-link">
+					<a href="//toddmotto.com/attaching-event-handlers-to-dynamically-created-javascript-elements">Go to tutorial</a>
+				</li>
+			</ul>
+		</div>
+		<div class="wrapper">
+			<div class="main">
+				<form class="generate" method="post">
+					<h1 class="generate-title">Event handler generator</h1>
+					<input type="text" class="generate-input" placeholder="Type something">
+					<input type="submit" class="generate-submit" value="Create new item">
+				</form>
+				<ul id="links">
+				    <li class="dynamic-link">List item 1</li>
+				    <li class="dynamic-link">List item 2</li>
+				    <li class="dynamic-link">List item 3</li>
+				    <li class="dynamic-link">List item 4</li>
+				</ul>
+				
+			</div>
+		</div>
+		
+		<script>
+		(function(){
+
+			var $ = function (selector) {
+				return document.querySelector(selector);
+			};
+
+			function dynamicEvent() {
+				this.innerHTML = 'Dynamic event success.';
+				this.className += ' dynamic-success';
+			}
+
+			var links = $('#links').getElementsByTagName('li');
+
+			for (var i = 0; i < links.length; i++) {
+				var link = links[i];
+				link.onclick = dynamicEvent;
+			}
+			
+			$('.generate').onsubmit = function() {
+				var dynamicValue = $('.generate-input').value;
+				if(!dynamicValue) {
+				
+					alert('Please enter something.');
+					
+				} else {
+
+					$('.generate-submit').value = 'Click your item below!';
+					var li = document.createElement('li');
+					li.className = 'dynamic-link';
+					li.innerHTML = dynamicValue;
+					$('#links').appendChild(li);
+					li.onclick = dynamicEvent;
+				}
+				return false;
+			}
+		})();
+		</script>
+		
+
+		
+	</body>
+</html>
