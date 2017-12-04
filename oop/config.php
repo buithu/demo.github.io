@@ -1,6 +1,5 @@
 <?php 
-$swap = new swap();
-$swap->swapurl();
-$test = new crawler();
-
+    $swap = new swap();
+    $swap->swapurl();
+    $test = new crawler();
  ?>
