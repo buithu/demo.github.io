@@ -41,7 +41,7 @@ class crawler{
 	function showdb(){
 		global $sql;
 		$sql = $this->conn->prepare("SELECT * FROM post"); 
-    	$sql->execute();
+    		$sql->execute();
 	}
 	function savedb(){
 		if (isset($_POST['save'])) {
