@@ -1,3 +1,10 @@
+$ds = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+$co =count($ds);
+for ($i = 1; $i < $co ;$i++) {
+    print_r($ds[$i]);
+    echo "<br>";
+}
+
 <!DOCTYPE html>
 <html>
 <head>
